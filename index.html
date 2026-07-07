@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev R B — Software Developer, Data</title>
+<meta name="description" content="Dev R B — Software Developer (Data) at Thoughtworks. Data pipelines, dashboards, and platform engineering.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0f12'/%3E%3Ctext x='50' y='68' font-size='58' font-family='monospace' fill='%23f2a65a' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- ============ CHROME BAR ============ -->
+<div class="chrome-bar">
+  <div class="chrome-dots" aria-hidden="true">
+    <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+  </div>
+  <div class="chrome-title"><b>devrb</b> — portfolio.workspace</div>
+  <a class="chrome-cta" href="assets/Dev_R_B_Resume.pdf" download>⬇ <span class="full">Résumé</span></a>
+</div>
+
+<!-- ============ TAB BAR ============ -->
+<nav class="tab-bar" aria-label="Sections">
+  <button class="tab" data-target="about"><span class="tab-dot"></span>about.md</button>
+  <button class="tab" data-target="experience"><span class="tab-dot"></span>experience.log</button>
+  <button class="tab" data-target="skills"><span class="tab-dot"></span>skills.json</button>
+  <button class="tab" data-target="education"><span class="tab-dot"></span>education.sql</button>
+  <button class="tab" data-target="achievements"><span class="tab-dot"></span>achievements.md</button>
+  <button class="tab" data-target="contact"><span class="tab-dot"></span>contact.sh</button>
+</nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div>
+      <p class="prompt-line"><span class="sigil">~/portfolio</span> $ profile</p>
+      <h1>Dev R B</h1>
+      <p class="hero-role"><span id="typed-role">Software Developer — Data</span><span class="cursor" aria-hidden="true"></span></p>
+      <p class="hero-location">Bengaluru, India · Thoughtworks</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/Dev_R_B_Resume.pdf" download>
+          ⬇ Download Résumé
+        </a>
+        <a class="btn" href="mailto:devbhooma@gmail.com">✉ Email</a>
+        <a class="btn" href="https://linkedin.com/in/devrb2003" target="_blank" rel="noopener">in LinkedIn</a>
+        <a class="btn" href="https://leetcode.com/dev_rb" target="_blank" rel="noopener">{ } LeetCode</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="assets/dev-headshot.jpg" alt="Portrait of Dev R B" width="168" height="168">
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <p class="file-label">about.md</p>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-text">
+      <p>I build the parts of a data platform that are supposed to be invisible when they work: pipelines that don't quietly drop records, dashboards people actually trust, and the recovery logic that kicks in at 2 a.m. so nobody has to. Right now that's at <span class="hl">Thoughtworks</span>, working on data reliability, governance, and Power BI tooling wired up to LLM-based agents.</p>
+      <p>Before that, at <span class="hl">Fourkites</span>, I was the customer-facing engineer for Procter &amp; Gamble's integration issues and helped move a platform from AWS to Azure without anyone downstream noticing. Off the clock, I've cleared 800+ LeetCode problems, placed <span class="hl">AIR 56</span> in the National Engineering Olympiad, and co-authored two IEEE papers on deep learning.</p>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <p class="file-label">experience.log</p>
+    <h2 class="section-title">Professional Experience</h2>
+
+    <article class="job">
+      <div class="job-head">
+        <div class="job-title">Software Developer — Data <span>@ Thoughtworks</span></div>
+        <div class="job-date">Jan 2025 — Present</div>
+      </div>
+      <div class="job-company">Bangalore, India</div>
+      <ul>
+        <li>Built and maintain a software inventory tool that tracks lifecycle status and flags upcoming End-of-Life software, cutting compliance risk and licensing penalties.</li>
+        <li>Architected a resilient Matillion data pipeline that catches errored and rejected records into recovery tables and auto-reprocesses them on the next run, with far less manual clean-up.</li>
+        <li>Designed Power BI dashboards wired to semantic models and LLM-based agents, plus governance and observability checks for completeness, correctness, and compliance — enabling conversational analytics and faster root-cause analysis.</li>
+      </ul>
+      <div class="tech-row">
+        <span class="tech-pill">Python</span><span class="tech-pill">PySpark</span><span class="tech-pill">Databricks</span><span class="tech-pill">Snowflake</span><span class="tech-pill">Spring Boot</span><span class="tech-pill">Soda</span>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div class="job-title">Software Developer Intern <span>@ Fourkites</span></div>
+        <div class="job-date">Jun 2023 — May 2024</div>
+      </div>
+      <div class="job-company">Chennai, India</div>
+      <ul>
+        <li>Resolved 75+ critical issues for Procter &amp; Gamble as the primary customer-facing technical contact.</li>
+        <li>Spearheaded migrating platform services from AWS to Azure — S3 to Blob Storage, SQS to Kafka — as part of a multi-cloud architecture push, and led Azure parity efforts.</li>
+        <li>Partnered with Data Science on trend-analysis and milestone-forecasting tooling, wrote product documentation, and built an AI-assisted setup automation framework for the dev team.</li>
+      </ul>
+      <div class="tech-row">
+        <span class="tech-pill">Java</span><span class="tech-pill">Spring Boot</span><span class="tech-pill">Postgres</span><span class="tech-pill">SQS</span><span class="tech-pill">Kafka</span><span class="tech-pill">React</span><span class="tech-pill">Docker</span><span class="tech-pill">Kubernetes</span><span class="tech-pill">Redis</span>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <p class="file-label">skills.json</p>
+    <h2 class="section-title">Skills &amp; Tools</h2>
+
+    <div class="code-block">
+      <div class="code-block-head">skills.json</div>
+      <div class="code-body">
+        <div class="code-lines" aria-hidden="true">1<br>2<br>3<br>4</div>
+        <div class="code-content">
+<span class="c">{</span><br>
+&nbsp;&nbsp;<span class="k">"languages"</span><span class="c">:</span> <span class="s">["Java", "Python", "JavaScript", "SQL"]</span><span class="c">,</span><br>
+&nbsp;&nbsp;<span class="k">"tools"</span><span class="c">:</span> <span class="s">[…see chips below]</span><br>
+<span class="c">}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chip-row">
+      <span class="chip">AWS</span><span class="chip">React</span><span class="chip">Spring Boot</span>
+      <span class="chip">Node.js</span><span class="chip">PySpark</span><span class="chip">ServiceNow</span>
+      <span class="chip">Databricks</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
+      <span class="chip">Snowflake</span><span class="chip">Redis</span><span class="chip">Apache Kafka</span>
+      <span class="chip">Amazon SQS</span><span class="chip">Docker</span><span class="chip">Kubernetes</span>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <p class="file-label">education.sql</p>
+    <h2 class="section-title">Education</h2>
+
+    <div class="code-block">
+      <div class="code-block-head">education.sql</div>
+      <div class="code-body">
+        <div class="code-lines" aria-hidden="true">1<br>2<br>3</div>
+        <div class="code-content">
+<span class="kw">SELECT</span> degree, institution, cgpa<br>
+<span class="kw">FROM</span> education<br>
+<span class="kw">WHERE</span> student <span class="c">=</span> <span class="s">'Dev R B'</span><span class="c">;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-card">
+      <h3>Bachelor of Engineering — Computer Science Engineering</h3>
+      <div class="meta">Kongu Engineering College &nbsp;·&nbsp; 2020 – 2024 &nbsp;·&nbsp; CGPA <span class="cgpa">9.06</span></div>
+    </div>
+
+    <div class="chip-row">
+      <span class="chip">OOPS</span><span class="chip">Databases</span><span class="chip">Data Structures &amp; Algorithms</span>
+      <span class="chip">Operating Systems</span><span class="chip">Computer Networks</span><span class="chip">React</span>
+      <span class="chip">Node.js</span><span class="chip">MongoDB</span>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section id="achievements">
+    <p class="file-label">achievements.md</p>
+    <h2 class="section-title">Achievements</h2>
+
+    <ul class="achieve-list">
+      <li><span class="mark">✓</span> Solved 800+ problems on LeetCode</li>
+      <li><span class="mark">✓</span> Received <em>"Top Performer"</em> recognition from management for outstanding contributions and customer impact, 2025</li>
+      <li><span class="mark">✓</span> Achieved All India Rank 56 in the National Engineering Olympiad</li>
+      <li><span class="mark">✓</span> Published two IEEE conference papers — COVID-19 sentiment analysis using deep learning, and optimizer comparison for lung cancer classification with deep CNNs</li>
+    </ul>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <p class="file-label">contact.sh</p>
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:devbhooma@gmail.com">
+        <span class="icon">✉</span>
+        <span><span class="label">EMAIL</span><br><span class="value">devbhooma@gmail.com</span></span>
+      </a>
+      <a class="contact-card" href="tel:+919344848182">
+        <span class="icon">☎</span>
+        <span><span class="label">PHONE</span><br><span class="value">+91 93448 48182</span></span>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/devrb2003" target="_blank" rel="noopener">
+        <span class="icon">in</span>
+        <span><span class="label">LINKEDIN</span><br><span class="value">devrb2003</span></span>
+      </a>
+      <a class="contact-card" href="https://leetcode.com/devrb_20cse" target="_blank" rel="noopener">
+        <span class="icon">{ }</span>
+        <span><span class="label">LEETCODE</span><br><span class="value">devrb_20cse</span></span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Dev R B — built with vanilla HTML/CSS/JS, hosted on GitHub Pages.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
